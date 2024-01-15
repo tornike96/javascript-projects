@@ -4,7 +4,6 @@ const url =
 const formDOM = document.querySelector(".form");
 const inputDOM = document.querySelector(".form-input");
 const resultsDOM = document.querySelector(".results");
-const articles = document.querySelector(".articles");
 
 formDOM.addEventListener("submit", (e) => {
   e.preventDefault();
